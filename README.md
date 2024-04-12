@@ -1,69 +1,54 @@
-# About The Project
-There are many great README templates available on GitHub; We will use this to document everything that we did in this project. some other resources are: joshseven,
+# VividArt Studios Photo Editing System
 
-What to note down:
+Welcome to the VividArt Studios Photo Editing System repository! This project aimed to develop an innovative solution to streamline photo uploads, enable dynamic transformations, and ensure scalability for VividArt Studios, a dynamic player in the realm of photography.
 
-Did you work with anyone, note that
-What was the problem you were trying to tackle & how did you go about finding your solution
-any challenges you faced and how did you solve them
-Collaborations
-This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. I was able to work with:
+## Project Overview
 
-William Mukoyani @their_linkedin
-Esther Awudu @their_linkedin
-Thelma Laryea @their_linkedin
-Sampson Boamah @their_linkedin
-Project Overview
-   Todo and technologies
-1. Use AWS s3 (cloud storage service)
-2. Upload your files to AWS s3
-3. Launch a sample webapp
-   1. Creating an s3 bucket through the AWS console
-You need to have a an AWS account, you can get a freetire account which basically means you get a free 1 year to use some AWS resources. In our case, we have that setup and we will be using the s3 service.
+VividArt Studios faced challenges in their current photo editing tools, particularly during the crucial phase of photo uploads. By collaborating with cloud engineering experts, they sought to develop a transformative system that not only addressed current needs but also anticipated future growth. This endeavor promised to elevate VividArt's artistic endeavors and shape the future of their studio.
 
-Go to the s3 service
-click on "create bucket" : a bucket is where we will put our files.
-click on "objects" : obejects are files that can go into the bucket.
-   2. Setup Website hosting for S3
-Webhosting is what allows o a webfile to be served to the internet. AWS offers a free option to host a static website (static is something that doesnt use data from a database).
+## Goals
 
-Go to your s3 bucket
-Go to the properties tab
-Scroll down to Static Web Hosting and enable this.
-   3. Launch your website on s3
-We have a bucket and its now hosting ready, all we need to do is add our files and we can access the site.
+- Seamlessly integrate innovative solutions into VividArt's workflow.
+- Enable dynamic transformations of uploaded photos.
+- Ensure scalability to accommodate future growth.
 
-Go to your s3 bucket and upload "objects". these are your webfiles from your computer
-Go to the s3 bucket properties tab
-Scroll down to Static Web Hosting and you should now see a url. *click on the url and access your site.
-Showcase a simple Architecture diagram
-Logo
+## Technologies Used
 
-(back to top)
+1. **Containerization**: Docker was used to containerize various components of the system, ensuring consistency and portability across different environments.
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+2. **Automated Photo Editing Workflow**: Utilizing cloud-based services such as AWS Lambda, we automated the photo editing workflow to streamline the process for VividArt Studios.
 
-Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+3. **Cloud Storage for Accessibility**: AWS S3 was used for storing photos, providing accessibility and durability for VividArt's photo assets.
 
-Clone the repo
-git clone https://github.com/your_username_/Project-Name.git
-(back to top)
+4. **User-Friendly Interfaces**: A user-friendly web interface was developed using modern frontend technologies such as React.js, ensuring an intuitive experience for users.
 
-Contact
-Your Name - @my_twitter - email@example.com
+5. **Infrastructure as Code (IaC)**: Infrastructure was defined and provisioned using Terraform, allowing for easy management and reproducibility of the system's infrastructure.
 
-Project Link: https://github.com/your_username/repo_name
+6. **Monitoring and Analytics**: Utilizing AWS CloudWatch and AWS CloudTrail, we implemented monitoring and analytics to gain insights into system performance and user behavior.
 
-(back to top)
+7. **Continuous Integration/Continuous Deployment (CI/CD)**: AWS CodePipeline was used for implementing CI/CD pipelines, enabling automated testing and deployment of changes to the system.
 
-References
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+## Getting Started
 
-GitHub Emoji Cheat Sheet
-Malven's Flexbox Cheatsheet
-Malven's Grid Cheatsheet
-Img Shields
-GitHub Pages
-(back to top)
+To get started with the VividArt Studios Photo Editing System, follow these steps:
+
+1. Clone this repository to your local machine.
+   
+git clone https://github.com/lawrencemuema/Vividarts_studio
+
+3. Set up your development environment by installing Docker, Terraform, and other necessary dependencies.
+4. Follow the instructions in the respective directories to set up and configure each component of the system.
+5. Start experimenting and contributing to the project!
+
+## Contact 
+LinkedIn - www.linkedin.com/in/nabila-alhassan
+Email - nabilaalhassan70@yahoo.com
+Project Link -  https://www.notion.so/nabilaalhassan/Deploying-a-Flask-App-with-S3-and-Lambda-Integration-on-ECS-using-CI-CD-with-AWS-CodePipeline-b4c0f40e4c7a42f298e38313cb7aaa25?pvs=4
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to customize and expand upon this README template to suit the specific needs and nuances of VividArt Studios' transformative system. Happy coding!
