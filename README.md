@@ -28,6 +28,7 @@ VividArt Studios faced challenges in their current photo editing tools, particul
 
 7. **Continuous Integration/Continuous Deployment (CI/CD)**: AWS CodePipeline was used for implementing CI/CD pipelines, enabling automated testing and deployment of changes to the system.
 
+
 ## Getting Started
 
 To get started with the VividArt Studios Photo Editing System, follow these steps:
