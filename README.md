@@ -50,5 +50,3 @@ Project Link -  https://www.notion.so/nabilaalhassan/Deploying-a-Flask-App-with-
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to customize and expand upon this README template to suit the specific needs and nuances of VividArt Studios' transformative system. Happy coding!
