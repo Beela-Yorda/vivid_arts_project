@@ -1,3 +1,7 @@
+## Project Documentation 
+https://www.notion.so/nabilaalhassan/Deploying-a-Flask-App-with-S3-and-Lambda-Integration-on-ECS-using-CI-CD-with-AWS-CodePipeline-b4c0f40e4c7a42f298e38313cb7aaa25?pvs=4
+
+
 # VividArt Studios Photo Editing System
 
 Welcome to the VividArt Studios Photo Editing System repository! This project aimed to develop an innovative solution to streamline photo uploads, enable dynamic transformations, and ensure scalability for VividArt Studios, a dynamic player in the realm of photography.
